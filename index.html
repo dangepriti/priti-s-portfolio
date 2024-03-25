@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priti- Developer Portfolio</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(1, 7, 26);
+            color: white;
+            font-family: sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(15, 9, 44);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+           
+        }
+        nav ul li a:hover{
+            
+            color: rgb(153, 159, 212);
+            font-size: 1.02rem;
+           
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 140px -0;
+            
+        }
+        .firstSection > div{
+            width: 30%;  
+        }
+        .leftSection{
+            width: 34px;
+            font-size: 2.5rem;
+           
+        }
+        .leftSection .buttons{
+            padding: 50px  0px;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: rgb(56, 11, 114);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width: 100%;
+            margin: 10px 0;
+        }
+        .purple{
+            color: rgb(106, 57, 153);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color:  rgb(106, 57, 153);;
+        }
+        .secondSection{
+            max-width: 88
+            vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 85vw;
+            height: 2px;
+            margin: 60px 65px;
+            display: flex;
+    
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 1px 260px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 163px;
+            font-size: 20px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 14px;
+        }
+        footer{
+            background-color: rgb(13, 6, 34);
+           
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .footer ul{
+            display: flex;
+            align-items: center;
+            height: 30vh;
+            list-style: none;
+            gap: 70px;
+        }
+        .footer ul li a{
+            color: white;
+        }
+        .footer ul li a:hover{
+            color:rgb(153, 159, 212);
+        }
+        .footer > div {
+           
+            width: 400px;
+        }
+           
+        footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Priti's Portfolio</div>
+            <div class="right">
+ 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi ,My name is <span class="purple">Priti</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+                
+            </div>
+            <div class="rightSection">
+                <img src="img.jpg" alt="img">
+            </div>            
+        </section>
+     <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What ihave done so far</span>
+             <h1>Project Experiance</h1>
+
+             <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="nfx.png" alt="" >
+                    <div class="vertical-title">
+                        Netflix-Clone
+                    </div>
+                
+                    <div class="vertical-desc">
+                       Responsive homepage of netflix using HTML and CSS
+                    </div>
+               </div>
+
+               <div class="vertical">
+                   <img class="image-top" src="ue.png" alt="" >
+                   <div class="vertical-title">
+                        Ultra Edit-Clone
+                   </div>
+            
+                   <div class="vertical-desc">
+                       Responsive homepage of ultra Edit using HTML and CSS
+                   </div>
+                </div>
+
+                
+        </section> 
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Priti's Developer Portfolio</h3>
+            </div>
+            <div class="right">
+ 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-right">
+            copyright &#169;pritisportfolio.com| All right reserve
+        </div>
+    </footer>
+   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
